@@ -527,59 +527,79 @@ export default function App() {
         </section>
 
         <Section title="Training" id="training">
-          <div className="d-flex justify-content-center align-items-center">
 
-            <div
-              whileHover={{ scale: 1.03 }}
-              style={{
-                maxWidth: "900px",
-                width: "100%"
-              }}
-            >
-              <div
-                className="p-5 text-start"
-                style={{
-                  borderRadius: "20px",
-                  background: "linear-gradient(145deg, #020617, #0f172a)",
-                  border: "1px solid rgba(34,197,94,0.2)",
-                  boxShadow: "0 0 35px rgba(20,184,166,0.2)",
-                  transition: "0.3s"
-                }}
-                onMouseEnter={(e) =>
-                (e.currentTarget.style.boxShadow =
-                  "0 0 45px rgba(34,197,94,0.5)")
-                }
-                onMouseLeave={(e) =>
-                (e.currentTarget.style.boxShadow =
-                  "0 0 35px rgba(20,184,166,0.2)")
-                }
-              >
+  <div className="d-flex justify-content-center align-items-center">
 
-                <h2 className="fw-bold mb-3" style={{ color: "#14b8a6" }}>
-                  Data Structures & Algorithms Training
-                </h2>
+    <div
+      style={{
+        maxWidth: "900px",
+        width: "100%",
+        padding: "40px",
+        borderRadius: "20px",
+        background: "linear-gradient(145deg, #020617, #0f172a)",
+        border: "1px solid rgba(34,197,94,0.2)",
+        boxShadow: "0 0 35px rgba(20,184,166,0.2)"
+      }}
+    >
 
-                <div className="d-flex justify-content-between mb-4 flex-wrap">
-                  <span style={{ color: "#22c55e", fontSize: "16px" }}>
-                    Splen Technologies
-                  </span>
-                  <span style={{ color: "#64748b" }}>
-                    2024
-                  </span>
-                </div>
+      {/* 🔹 TOP ROW */}
+      <div className="d-flex justify-content-between align-items-center mb-3 flex-wrap">
 
-                <ul style={{ color: "#94a3b8", fontSize: "15px", lineHeight: "1.8" }}>
-                  <li>Covered core DSA topics including arrays, linked lists, stacks, queues, trees, and graphs</li>
-                  <li>Solved coding problems to strengthen logical thinking and problem-solving ability</li>
-                  <li>Learned time and space complexity optimization techniques</li>
-                  <li>Practiced real-world problem solving and competitive programming approaches</li>
-                </ul>
+        {/* LEFT */}
+        <h2 className="fw-bold" style={{ color: "#14b8a6" }}>
+          Data Structures & Algorithms Training
+        </h2>
 
-              </div>
-            </div>
+        {/* RIGHT: CERTIFICATE BUTTON */}
+        <a
+          href="portfolio\public\aayush verma.png"   // 🔥 replace this with your file
+          target="_blank"
+          rel="noreferrer"
+          style={{
+            color: "#22c55e",
+            textDecoration: "none",
+            border: "1px solid rgba(34,197,94,0.3)",
+            padding: "8px 16px",
+            borderRadius: "10px",
+            transition: "0.3s"
+          }}
+          onMouseEnter={(e) => {
+            e.currentTarget.style.background = "rgba(34,197,94,0.1)";
+            e.currentTarget.style.transform = "scale(1.05)";
+          }}
+          onMouseLeave={(e) => {
+            e.currentTarget.style.background = "transparent";
+            e.currentTarget.style.transform = "scale(1)";
+          }}
+        >
+          View Certificate
+        </a>
 
-          </div>
-        </Section>
+      </div>
+
+      {/* 🔹 Institute + Time */}
+      <div className="d-flex justify-content-between mb-4 flex-wrap">
+        <span style={{ color: "#22c55e" }}>
+          Splen Technologies
+        </span>
+        <span style={{ color: "#64748b" }}>
+          2024
+        </span>
+      </div>
+
+      {/* 🔹 Description */}
+      <ul style={{ color: "#94a3b8", lineHeight: "1.8" }}>
+        <li>Covered core DSA topics including arrays, linked lists, trees, and graphs</li>
+        <li>Practiced problem solving and competitive coding techniques</li>
+        <li>Improved time and space complexity understanding</li>
+        <li>Strengthened logical thinking and algorithmic skills</li>
+      </ul>
+
+    </div>
+
+  </div>
+
+</Section>
 
         <Section title="Skills" id="skills">
 
