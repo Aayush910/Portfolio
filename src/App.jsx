@@ -504,7 +504,7 @@ export default function App() {
               </a>
 
               <a
-                href="https://drive.google.com/file/d/1qXqPK4qEZrsS8jW5WjWM-4BrMriXNiMZ/view?usp=sharing"
+                href="https://1drv.ms/b/c/13ba4cee05d238f2/IQCD59jX2Fa5SK3DqiL7XyrpAYDmzec9YkQcmdjUPZw9rsc?e=vne4TV"
                 target="_blank"
                 className="btn"
                 style={{
@@ -528,78 +528,74 @@ export default function App() {
 
         <Section title="Training" id="training">
 
-  <div className="d-flex justify-content-center align-items-center">
+          <div className="d-flex justify-content-center align-items-center">
 
-    <div
-      style={{
-        maxWidth: "900px",
-        width: "100%",
-        padding: "40px",
-        borderRadius: "20px",
-        background: "linear-gradient(145deg, #020617, #0f172a)",
-        border: "1px solid rgba(34,197,94,0.2)",
-        boxShadow: "0 0 35px rgba(20,184,166,0.2)"
-      }}
-    >
+            <div
+              style={{
+                maxWidth: "900px",
+                width: "100%",
+                padding: "40px",
+                borderRadius: "20px",
+                background: "linear-gradient(145deg, #020617, #0f172a)",
+                border: "1px solid rgba(34,197,94,0.2)",
+                boxShadow: "0 0 35px rgba(20,184,166,0.2)"
+              }}
+            >
 
-      {/* 🔹 TOP ROW */}
-      <div className="d-flex justify-content-between align-items-center mb-3 flex-wrap">
+              <div className="d-flex justify-content-between align-items-center mb-3 flex-wrap">
 
-        {/* LEFT */}
-        <h2 className="fw-bold" style={{ color: "#14b8a6" }}>
-          Data Structures & Algorithms Training
-        </h2>
+                <h2 className="fw-bold" style={{ color: "#14b8a6" }}>
+                  Data Structures & Algorithms Training
+                </h2>
+                <a
+                  href="https://1drv.ms/b/c/13ba4cee05d238f2/IQAiKc1sIQNwQJErnFuzFrr0AVxl_4y9bnGBS4ZotepFvxc?e=wz4N2f"
+                  target="_blank"
+                  rel="noreferrer"
+                  style={{
+                    color: "#22c55e",
+                    textDecoration: "none",
+                    border: "1px solid rgba(34,197,94,0.3)",
+                    padding: "8px 16px",
+                    borderRadius: "10px",
+                    transition: "0.3s"
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.background = "rgba(34,197,94,0.1)";
+                    e.currentTarget.style.transform = "scale(1.05)";
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.background = "transparent";
+                    e.currentTarget.style.transform = "scale(1)";
+                  }}
+                >
+                  View Certificate
+                </a>
 
-        {/* RIGHT: CERTIFICATE BUTTON */}
-        <a
-          href="https://drive.google.com/file/d/1b1Ch-Ndb572W5_ujfzdcsSV4xX46vBzK/view?usp=sharing"   // 🔥 replace this with your file
-          target="_blank"
-          rel="noreferrer"
-          style={{
-            color: "#22c55e",
-            textDecoration: "none",
-            border: "1px solid rgba(34,197,94,0.3)",
-            padding: "8px 16px",
-            borderRadius: "10px",
-            transition: "0.3s"
-          }}
-          onMouseEnter={(e) => {
-            e.currentTarget.style.background = "rgba(34,197,94,0.1)";
-            e.currentTarget.style.transform = "scale(1.05)";
-          }}
-          onMouseLeave={(e) => {
-            e.currentTarget.style.background = "transparent";
-            e.currentTarget.style.transform = "scale(1)";
-          }}
-        >
-          View Certificate
-        </a>
+              </div>
 
-      </div>
+              {/* 🔹 Institute + Time */}
+              <div className="d-flex justify-content-between mb-4 flex-wrap">
+                <span style={{ color: "#22c55e" }}>
+                  Splen Technologies
+                </span>
+                <span style={{ color: "#64748b" }}>
+                  2024
+                </span>
+              </div>
 
-      {/* 🔹 Institute + Time */}
-      <div className="d-flex justify-content-between mb-4 flex-wrap">
-        <span style={{ color: "#22c55e" }}>
-          Splen Technologies
-        </span>
-        <span style={{ color: "#64748b" }}>
-          2024
-        </span>
-      </div>
+              {/* 🔹 Description */}
+              <ul style={{ color: "#94a3b8", lineHeight: "1.8" }}>
+                <li>Covered core DSA topics including arrays, linked lists, trees, and graphs</li>
+                <li>Practiced problem solving and competitive coding techniques</li>
+                <li>Improved time and space complexity understanding</li>
+                <li>Strengthened logical thinking and algorithmic skills</li>
+              </ul>
 
-      {/* 🔹 Description */}
-      <ul style={{ color: "#94a3b8", lineHeight: "1.8" }}>
-        <li>Covered core DSA topics including arrays, linked lists, trees, and graphs</li>
-        <li>Practiced problem solving and competitive coding techniques</li>
-        <li>Improved time and space complexity understanding</li>
-        <li>Strengthened logical thinking and algorithmic skills</li>
-      </ul>
+            </div>
 
-    </div>
+          </div>
 
-  </div>
-
-</Section>
+        </Section>
 
         <Section title="Skills" id="skills">
 
@@ -731,7 +727,7 @@ export default function App() {
             </div>
           </div>
         )}
-{/* 
+        {/* 
         <Section title="Certifications" id="certifications">
           <div className="row justify-content-center">
             <Card title="React Certification" desc="Coursera / Udemy" />
