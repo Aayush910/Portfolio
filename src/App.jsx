@@ -552,7 +552,7 @@ export default function App() {
 
         {/* RIGHT: CERTIFICATE BUTTON */}
         <a
-          href="portfolio\public\aayush verma.png"   // 🔥 replace this with your file
+          href="https://drive.google.com/file/d/1b1Ch-Ndb572W5_ujfzdcsSV4xX46vBzK/view?usp=sharing"   // 🔥 replace this with your file
           target="_blank"
           rel="noreferrer"
           style={{
