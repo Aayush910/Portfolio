@@ -504,7 +504,7 @@ export default function App() {
               </a>
 
               <a
-                href="https://1drv.ms/b/c/13ba4cee05d238f2/IQCD59jX2Fa5SK3DqiL7XyrpAYDmzec9YkQcmdjUPZw9rsc?e=vne4TV"
+                href="https://drive.google.com/file/d/1h9dtOj_uilM02XmpHSKAP0aSt6fUgLZo/view?usp=sharing"
                 target="_blank"
                 className="btn"
                 style={{
